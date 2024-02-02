@@ -1196,7 +1196,7 @@ label {
     background: #f04336;
     position: relative;
     margin-left: 80px;
-	background-image: url(/Users/snehajature/eclipse-workspace/PetShop/src/main/webapp/User/img/images/find_shape.png);
+	background-image: url(.../img/images/find_shape.png);
 	background-position: bottom right;
 	background-repeat: no-repeat;
 }
@@ -1802,6 +1802,9 @@ label {
     position: absolute;
     top: 50%;
     left: -16%;
+    background-color: red;
+    border-radius: 900%;
+    z-index: 1;
 }
 .breed-services-active .owl-prev img {
 	max-width: 47px;

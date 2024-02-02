@@ -46,24 +46,24 @@
 						<div class="menu-wrap">
 							<nav class="menu-nav show">
 								<div class="logo">
-									<a href="index.html"><img src="./img/logo/logo.png" alt=""></a>
+									<a href="index.jsp"><img src="./img/logo/logo.png" alt=""></a>
 								</div>
 								<div class="navbar-wrap main-menu d-none d-lg-flex">
 									<ul class="navigation">
 										<li class="active menu-item-has-children"><a
-											href="index.html">Home</a>
+											href="index.jsp">Home</a>
 											<ul class="submenu">
-												<li class="active"><a href="index.html">Home One</a></li>
-												<li><a href="index-2.html">Home Two</a></li>
+												<li class="active"><a href="index.jsp">Home One</a></li>
+												<li><a href="index-2.jsp">Home Two</a></li>
 											</ul></li>
-										<li><a href="dog-list.html">Dog List</a></li>
-										<li class="menu-item-has-children"><a href="shop.html">Shop</a>
+										<li><a href="dog_List.jsp">Dog List</a></li>
+										<li class="menu-item-has-children"><a href="shop.jsp">Shop</a>
 											<ul class="submenu">
-												<li><a href="shop.html">Our Shop</a></li>
-												<li><a href="shop-details.html">Shop Details</a></li>
+												<li><a href="shop.jsp">Our Shop</a></li>
+												<li><a href="shop_Details.jsp">Shop Details</a></li>
 											</ul></li>
-										<li><a href="adoption.html">Adoption</a></li>
-										<li class="menu-item-has-children"><a href="breeder.html">Breeder</a>
+										<li><a href="adoption.jsp">Adoption</a></li>
+										<!-- <li class="menu-item-has-children"><a href="breeder.html">Breeder</a>
 											<ul class="submenu">
 												<li><a href="breeder.html">Our Breeder</a></li>
 												<li><a href="breeder-details.html">Breeder Details</a></li>
@@ -72,8 +72,8 @@
 											<ul class="submenu">
 												<li><a href="blog.html">Our Blog</a></li>
 												<li><a href="blog-details.html">Blog Details</a></li>
-											</ul></li>
-										<li><a href="contact.html">contacts</a></li>
+											</ul></li> -->
+										<li><a href="contact.jsp">contacts</a></li>
 									</ul>
 								</div>
 								<div class="header-action d-none d-md-block">
@@ -144,7 +144,7 @@
 									<i class="fas fa-times"></i>
 								</div>
 								<div class="nav-logo">
-									<a href="index.html"><img src="./img/logo/logo.png" alt=""
+									<a href="index.jsp"><img src="./img/logo/logo.png" alt=""
 										title=""></a>
 								</div>
 								<div class="menu-outer">
