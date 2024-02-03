@@ -129,9 +129,9 @@
 													</div>
 												</li>
 											</ul></li>
-										<li class="header-btn"><a href="adoption.html"
-											class="btn">Adopt Here <img src="./img/icon/w_pawprint.png"
-												alt=""></a></li>
+										<li class="header-btn"><a href="adoption.jsp" class="btn">Adopt
+												Here <img src="./img/icon/w_pawprint.png" alt="">
+										</a></li>
 									</ul>
 								</div>
 							</nav>

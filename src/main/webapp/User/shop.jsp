@@ -19,7 +19,7 @@
 
 
 		<section class="breadcrumb-area breadcrumb-bg"
-			data-background="img/bg/breadcrumb_bg.jpg">
+			data-background="./img/bg/breadcrumb_bg.jpg" style="background-image: url(&quot;img/bg/breadcrumb_bg.jpg&quot;);">
 			<div class="container">
 				<div class="row">
 					<div class="col-12">

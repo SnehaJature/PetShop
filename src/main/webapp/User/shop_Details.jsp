@@ -19,7 +19,7 @@
 
 		<!-- breadcrumb-area -->
 		<section class="breadcrumb-area breadcrumb-bg"
-			data-background="./img/bg/breadcrumb_bg.jpg">
+			style="background-image: url(&quot;img/bg/breadcrumb_bg.jpg&quot;);">
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
@@ -27,7 +27,7 @@
 							<h2 class="title">Shop Single</h2>
 							<nav aria-label="breadcrumb">
 								<ol class="breadcrumb">
-									<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+									<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
 									<li class="breadcrumb-item active" aria-current="page">Shop
 										Details</li>
 								</ol>
