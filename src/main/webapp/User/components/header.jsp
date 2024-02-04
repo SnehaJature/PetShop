@@ -63,11 +63,11 @@
 												<li><a href="shop_Details.jsp">Shop Details</a></li>
 											</ul></li>
 										<li><a href="adoption.jsp">Adoption</a></li>
-										<!-- <li class="menu-item-has-children"><a href="breeder.html">Breeder</a>
+										<li class="menu-item-has-children"><a href="breeder.jsp">Breeder</a>
 											<ul class="submenu">
-												<li><a href="breeder.html">Our Breeder</a></li>
-												<li><a href="breeder-details.html">Breeder Details</a></li>
-											</ul></li> -->
+												<li><a href="breeder.jsp">Our Breeder</a></li>
+												<li><a href="breeder_Details.jsp">Breeder Details</a></li>
+											</ul></li> 
 										<li class="menu-item-has-children"><a href="blog.jsp">Blog</a>
 											<ul class="submenu">
 												<li><a href="blog.jsp">Our Blog</a></li>
