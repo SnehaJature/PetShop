@@ -67,54 +67,54 @@
 											<ul class="submenu">
 												<li><a href="breeder.html">Our Breeder</a></li>
 												<li><a href="breeder-details.html">Breeder Details</a></li>
-											</ul></li>
-										<li class="menu-item-has-children"><a href="blog.html">Blog</a>
-											<ul class="submenu">
-												<li><a href="blog.html">Our Blog</a></li>
-												<li><a href="blog-details.html">Blog Details</a></li>
 											</ul></li> -->
+										<li class="menu-item-has-children"><a href="blog.jsp">Blog</a>
+											<ul class="submenu">
+												<li><a href="blog.jsp">Our Blog</a></li>
+												<li><a href="blog_Details.jsp">Blog Details</a></li>
+											</ul></li>
 										<li><a href="contact.jsp">contacts</a></li>
 									</ul>
 								</div>
 								<div class="header-action d-none d-md-block">
 									<ul>
-										<li class="header-search"><a href="index.html#"><i
+										<li class="header-search"><a href="index.jsp#"><i
 												class="flaticon-search"></i></a></li>
-										<li class="header-shop-cart"><a href="index.html#"><i
+										<li class="header-shop-cart"><a href="index.jsp#"><i
 												class="flaticon-shopping-bag"></i><span>2</span></a>
 											<ul class="minicart">
 												<li class="d-flex align-items-start">
 													<div class="cart-img">
-														<a href="index.html#"><img
+														<a href="index.jsp#"><img
 															src="./img/product/cart_p01.jpg" alt=""></a>
 													</div>
 													<div class="cart-content">
 														<h4>
-															<a href="index.html#">The King Charles Spaniel</a>
+															<a href="index.jsp#">The King Charles Spaniel</a>
 														</h4>
 														<div class="cart-price">
 															<span class="new">$229.9</span> <span><del>$229.9</del></span>
 														</div>
 													</div>
 													<div class="del-icon">
-														<a href="index.html#"><i class="far fa-trash-alt"></i></a>
+														<a href="index.jsp#"><i class="far fa-trash-alt"></i></a>
 													</div>
 												</li>
 												<li class="d-flex align-items-start">
 													<div class="cart-img">
-														<a href="index.html#"><img
+														<a href="index.jsp#"><img
 															src="./img/product/cart_p02.jpg" alt=""></a>
 													</div>
 													<div class="cart-content">
 														<h4>
-															<a href="index.html#">The Labrador Retriever</a>
+															<a href="index.jsp#">The Labrador Retriever</a>
 														</h4>
 														<div class="cart-price">
 															<span class="new">$229.9</span> <span><del>$229.9</del></span>
 														</div>
 													</div>
 													<div class="del-icon">
-														<a href="index.html#"><i class="far fa-trash-alt"></i></a>
+														<a href="index.jsp#"><i class="far fa-trash-alt"></i></a>
 													</div>
 												</li>
 												<li>
@@ -124,7 +124,7 @@
 												</li>
 												<li>
 													<div class="checkout-link">
-														<a href="index.html#">Shopping Cart</a> <a
+														<a href="index.jsp#">Shopping Cart</a> <a
 															class="black-color" href="index.html#">Checkout</a>
 													</div>
 												</li>
