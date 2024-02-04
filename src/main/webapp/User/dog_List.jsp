@@ -42,7 +42,7 @@
 							<h2 class="title">Dog List</h2>
 							<nav aria-label="breadcrumb">
 								<ol class="breadcrumb">
-									<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+									<li class="breadcrumb-item"><a href="index.jsp">Home</a></li>
 									<li class="breadcrumb-item active" aria-current="page">Dog
 										List</li>
 								</ol>
@@ -74,13 +74,13 @@
                             <div class="adoption-shop-item">
                                 <div class="adoption-shop-thumb">
                                     <img src="img/product/adoption_shop_thumb01.jpg" alt="">
-                                    <a href="shop-details.html" class="btn">Adoption <img src="img/icon/w_pawprint.png" alt=""></a>
+                                    <a href="shop_Details.jsp" class="btn">Adoption <img src="img/icon/w_pawprint.png" alt=""></a>
                                 </div>
                                 <div class="adoption-shop-content">
-                                    <h4 class="title"><a href="shop-details.html">Mister Tartosh</a></h4>
+                                    <h4 class="title"><a href="shop_Details.jsp">Mister Tartosh</a></h4>
                                     <div class="adoption-meta">
                                         <ul>
-                                            <li><i class="fas fa-cog"></i><a href="dog-list.html#">Siberian Husky</a></li>
+                                            <li><i class="fas fa-cog"></i><a href="dog_List.jsp#">Siberian Husky</a></li>
                                             <li><i class="far fa-calendar-alt"></i> Birth : 2021</li>
                                         </ul>
                                     </div>
@@ -103,13 +103,13 @@
                             <div class="adoption-shop-item">
                                 <div class="adoption-shop-thumb">
                                     <img src="img/product/adoption_shop_thumb02.jpg" alt="">
-                                    <a href="shop-details.html" class="btn">Adoption <img src="img/icon/w_pawprint.png" alt=""></a>
+                                    <a href="shop_Details.jsp" class="btn">Adoption <img src="img/icon/w_pawprint.png" alt=""></a>
                                 </div>
                                 <div class="adoption-shop-content">
-                                    <h4 class="title"><a href="shop-details.html">Charlie</a></h4>
+                                    <h4 class="title"><a href="shop_Details.jsp">Charlie</a></h4>
                                     <div class="adoption-meta">
                                         <ul>
-                                            <li><i class="fas fa-cog"></i><a href="dog-list.html#">Golden Retriever</a></li>
+                                            <li><i class="fas fa-cog"></i><a href="dog_List.jsp#">Golden Retriever</a></li>
                                             <li><i class="far fa-calendar-alt"></i> Birth : 2020</li>
                                         </ul>
                                     </div>
@@ -132,13 +132,13 @@
                             <div class="adoption-shop-item">
                                 <div class="adoption-shop-thumb">
                                     <img src="img/product/adoption_shop_thumb03.jpg" alt="">
-                                    <a href="shop-details.html" class="btn">Adoption <img src="img/icon/w_pawprint.png" alt=""></a>
+                                    <a href="shop_Details.jsp" class="btn">Adoption <img src="img/icon/w_pawprint.png" alt=""></a>
                                 </div>
                                 <div class="adoption-shop-content">
-                                    <h4 class="title"><a href="shop-details.html">Alessia Max</a></h4>
+                                    <h4 class="title"><a href="shop_Details.jsp">Alessia Max</a></h4>
                                     <div class="adoption-meta">
                                         <ul>
-                                            <li><i class="fas fa-cog"></i><a href="dog-list.html#">German Sherped</a></li>
+                                            <li><i class="fas fa-cog"></i><a href="dog_List.jsp#">German Sherped</a></li>
                                             <li><i class="far fa-calendar-alt"></i> Birth : 2020</li>
                                         </ul>
                                     </div>
@@ -161,13 +161,13 @@
                             <div class="adoption-shop-item">
                                 <div class="adoption-shop-thumb">
                                     <img src="img/product/adoption_shop_thumb04.jpg" alt="">
-                                    <a href="shop-details.html" class="btn">Adoption <img src="img/icon/w_pawprint.png" alt=""></a>
+                                    <a href="shop_Details.jsp" class="btn">Adoption <img src="img/icon/w_pawprint.png" alt=""></a>
                                 </div>
                                 <div class="adoption-shop-content">
-                                    <h4 class="title"><a href="shop-details.html">Canadian</a></h4>
+                                    <h4 class="title"><a href="shop_Details.jsp">Canadian</a></h4>
                                     <div class="adoption-meta">
                                         <ul>
-                                            <li><i class="fas fa-cog"></i><a href="dog-list.html#">German Sherped</a></li>
+                                            <li><i class="fas fa-cog"></i><a href="dog_List.jsp#">German Sherped</a></li>
                                             <li><i class="far fa-calendar-alt"></i> Birth : 2021</li>
                                         </ul>
                                     </div>
@@ -190,13 +190,13 @@
                             <div class="adoption-shop-item">
                                 <div class="adoption-shop-thumb">
                                     <img src="img/product/adoption_shop_thumb05.jpg" alt="">
-                                    <a href="shop-details.html" class="btn">Adoption <img src="img/icon/w_pawprint.png" alt=""></a>
+                                    <a href="shop_Details.jsp" class="btn">Adoption <img src="img/icon/w_pawprint.png" alt=""></a>
                                 </div>
                                 <div class="adoption-shop-content">
-                                    <h4 class="title"><a href="shop-details.html">Entertainment</a></h4>
+                                    <h4 class="title"><a href="shop_Details.jsp">Entertainment</a></h4>
                                     <div class="adoption-meta">
                                         <ul>
-                                            <li><i class="fas fa-cog"></i><a href="dog-list.html#">Siberian Husky</a></li>
+                                            <li><i class="fas fa-cog"></i><a href="dog_List.jsp#">Siberian Husky</a></li>
                                             <li><i class="far fa-calendar-alt"></i> Birth : 2021</li>
                                         </ul>
                                     </div>
@@ -219,13 +219,13 @@
                             <div class="adoption-shop-item">
                                 <div class="adoption-shop-thumb">
                                     <img src="img/product/adoption_shop_thumb06.jpg" alt="">
-                                    <a href="shop-details.html" class="btn">Adoption <img src="img/icon/w_pawprint.png" alt=""></a>
+                                    <a href="shop_Details.jsp" class="btn">Adoption <img src="img/icon/w_pawprint.png" alt=""></a>
                                 </div>
                                 <div class="adoption-shop-content">
-                                    <h4 class="title"><a href="shop-details.html">Dangerous</a></h4>
+                                    <h4 class="title"><a href="shop_Details.jsp">Dangerous</a></h4>
                                     <div class="adoption-meta">
                                         <ul>
-                                            <li><i class="fas fa-cog"></i><a href="dog-list.html#">Golden Retriever</a></li>
+                                            <li><i class="fas fa-cog"></i><a href="dog_List.jsp#">Golden Retriever</a></li>
                                             <li><i class="far fa-calendar-alt"></i> Birth : 2021</li>
                                         </ul>
                                     </div>
@@ -352,7 +352,7 @@
                                         <img src="img/images/breed_services_img01.jpg" alt="">
                                     </div>
                                     <div class="content">
-                                        <h3 class="title"><a href="breeder-details.html">Golden Retriever</a></h3>
+                                        <h3 class="title"><a href="breeder_Details.jsp">Golden Retriever</a></h3>
                                     </div>
                                 </div>
                                 <div class="breed-services-item">
@@ -360,7 +360,7 @@
                                         <img src="img/images/breed_services_img02.jpg" alt="">
                                     </div>
                                     <div class="content">
-                                        <h3 class="title"><a href="breeder-details.html">German Sharped</a></h3>
+                                        <h3 class="title"><a href="breeder_Details.jsp">German Sharped</a></h3>
                                     </div>
                                 </div>
                                 <div class="breed-services-item">
@@ -368,15 +368,15 @@
                                         <img src="img/images/breed_services_img03.jpg" alt="">
                                     </div>
                                     <div class="content">
-                                        <h3 class="title"><a href="breeder-details.html">Siberian Husky</a></h3>
+                                        <h3 class="title"><a href="breeder_Details.jsp">Siberian Husky</a></h3>
                                     </div>
                                 </div>
                                 <div class="breed-services-item">
                                     <div class="thumb">
-                                        <img src="img/images/breed_services_img04.jpg" alt="">
+                                        <img src="./img/images/breed_services_img04.jpg" alt="">
                                     </div>
                                     <div class="content">
-                                        <h3 class="title"><a href="breeder-details.html">Bernes Mountain</a></h3>
+                                        <h3 class="title"><a href="breeder_Details.jsp">Bernes Mountain</a></h3>
                                     </div>
                                 </div>
                             </div>
@@ -386,13 +386,13 @@
                                 <h5 class="sub-title">Dog Breeder</h5>
                                 <h3 class="title">Available for Breed</h3>
                                 <p>The best overall dog DNA test is Embark Breed & Health Kit (view at Chewy), which provid dogs</p>
-                                <a href="shop.html" class="btn">More Pets <img src="img/icon/w_pawprint.png" alt=""></a>
+                                <a href="shop.jsp" class="btn">More Pets <img src="./img/icon/w_pawprint.png" alt=""></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="breed-services-shape"><img src="img/images/breed_services_shape01.png" alt=""></div>
-                <div class="breed-services-shape shape-two"><img src="img/images/breed_services_shape02.png" alt=""></div>
+                <div class="breed-services-shape"><img src="./img/images/breed_services_shape01.png" alt=""></div>
+                <div class="breed-services-shape shape-two"><img src="./img/images/breed_services_shape02.png" alt=""></div>
             </section>
             <!-- breeds-services-end -->
 
@@ -407,13 +407,13 @@
                                     <p><span>*</span> Do Not Show Your Email.</p>
                                 </div>
                                 <div class="newsletter-form">
-                                    <form action="dog-list.html#">
+                                    <form action="dog_List.jsp#">
                                         <input type="email" placeholder="Enter Your Email...">
                                         <button type="submit" class="btn">Subscribe</button>
                                     </form>
                                 </div>
-                                <div class="newsletter-shape"><img src="img/images/newsletter_shape01.png" alt=""></div>
-                                <div class="newsletter-shape shape-two"><img src="img/images/newsletter_shape02.png" alt=""></div>
+                                <div class="newsletter-shape"><img src="./img/images/newsletter_shape01.png" alt=""></div>
+                                <div class="newsletter-shape shape-two"><img src="./img/images/newsletter_shape02.png" alt=""></div>
                             </div>
                         </div>
                     </div>

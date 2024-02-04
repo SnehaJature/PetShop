@@ -91,7 +91,7 @@
 								</div>
 							</div>
 							<div class="widget shop-widget-banner">
-								<a href="shop.html"><img src="./img/product/shop_add.jpg"
+								<a href="shop.jsp"><img src="./img/product/shop_add.jpg"
 									alt=""></a>
 							</div>
 						</aside>
@@ -104,7 +104,7 @@
 									<ul>
 										<li class="active"><a href="shop.jsp#"><i
 												class="fas fa-th"></i></a></li>
-										<li><a href="shop.html#"><i class="fas fa-list"></i></a></li>
+										<li><a href="shop.jsp#"><i class="fas fa-list"></i></a></li>
 									</ul>
 								</div>
 								<div class="shop-showing-result">
@@ -138,7 +138,7 @@
 								<div class="col-lg-4 col-sm-6">
 									<div class="shop-item mb-55">
 										<div class="shop-thumb">
-											<a href="shop-details.html"><img
+											<a href="shop_Details.jsp"><img
 												src="./img/product/shop_item01.jpg" alt=""></a>
 										</div>
 										<div class="shop-content">

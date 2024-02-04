@@ -26,10 +26,10 @@
 						<div class="header-top-right">
 							<ul class="header-top-social">
 								<li class="follow">Follow :</li>
-								<li><a href="index.html#"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="index.html#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="index.html#"><i class="fab fa-instagram"></i></a></li>
-								<li><a href="index.html#"><i class="fab fa-linkedin-in"></i></a></li>
+								<li><a href="index.jsp#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="index.jsp#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="index.jsp#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="index.jsp#"><i class="fab fa-linkedin-in"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -125,7 +125,7 @@
 												<li>
 													<div class="checkout-link">
 														<a href="index.jsp#">Shopping Cart</a> <a
-															class="black-color" href="index.html#">Checkout</a>
+															class="black-color" href="index.jsp#">Checkout</a>
 													</div>
 												</li>
 											</ul></li>
@@ -153,15 +153,15 @@
 								</div>
 								<div class="social-links">
 									<ul class="clearfix">
-										<li><a href="index.html#"><span
+										<li><a href="index.jsp#"><span
 												class="fab fa-twitter"></span></a></li>
-										<li><a href="index.html#"><span
+										<li><a href="index.jsp#"><span
 												class="fab fa-facebook-square"></span></a></li>
-										<li><a href="index.html#"><span
+										<li><a href="index.jsp#"><span
 												class="fab fa-pinterest-p"></span></a></li>
-										<li><a href="index.html#"><span
+										<li><a href="index.jsp#"><span
 												class="fab fa-instagram"></span></a></li>
-										<li><a href="index.html#"><span
+										<li><a href="index.jsp#"><span
 												class="fab fa-youtube"></span></a></li>
 									</ul>
 								</div>
@@ -188,7 +188,7 @@
 						<div class="col-12">
 							<h2 class="title">... Search Here ...</h2>
 							<div class="search-form">
-								<form action="index.html#">
+								<form action="index.jsp#">
 									<input type="text" name="search"
 										placeholder="Type keywords here">
 									<button class="search-btn">

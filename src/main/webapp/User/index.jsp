@@ -52,7 +52,7 @@
 											of delirat, the jury found Hernandez guilty of first-degree
 											murder</p>
 									</div>
-									<a href="dog-list.html" class="btn"
+									<a href="dog_List.jsp" class="btn"
 										data-animation="fadeInUpBig" data-delay=".6s"
 										data-duration="1.2s">View More <img
 										src="./img/icon/w_pawprint.png" alt=""></a>
@@ -79,7 +79,7 @@
 											of delirat, the jury found Hernandez guilty of first-degree
 											murder</p>
 									</div>
-									<a href="dog-list.html" class="btn"
+									<a href="dog_List.jsp" class="btn"
 										data-animation="fadeInUpBig" data-delay=".6s"
 										data-duration="1.2s">View More <img
 										src="./img/icon/w_pawprint.png" alt=""></a>
@@ -111,11 +111,11 @@
 								</div>
 								<div class="find-category">
 									<ul>
-										<li><a href="shop.html"><i class="flaticon-dog"></i>
+										<li><a href="shop.jsp"><i class="flaticon-dog"></i>
 												Find Your Dog</a></li>
-										<li><a href="shop.html"><i class="flaticon-happy"></i>
+										<li><a href="shop.jsp"><i class="flaticon-happy"></i>
 												Find Your Cat</a></li>
-										<li><a href="shop.html"><i class="flaticon-dove"></i>
+										<li><a href="shop.jsp"><i class="flaticon-dove"></i>
 												Find Your Birds</a></li>
 									</ul>
 								</div>
@@ -127,9 +127,9 @@
 											Other Pets</button>
 										<div class="dropdown-menu"
 											aria-labelledby="dropdownMenuButton">
-											<a class="dropdown-item" href="shop.html">Find Your Dog</a> <a
-												class="dropdown-item" href="shop.html">Find Your Cat</a> <a
-												class="dropdown-item" href="shop.html">Find Your Birds</a>
+											<a class="dropdown-item" href="shop.jsp">Find Your Dog</a> <a
+												class="dropdown-item" href="shop.jsp">Find Your Cat</a> <a
+												class="dropdown-item" href="shop.jsp">Find Your Birds</a>
 										</div>
 									</div>
 								</div>
@@ -210,7 +210,7 @@
 							<p>The best overall dog DNA test is Embark Breed & Health Kit
 								(view at Chewy), which provides you with a breed brwn and
 								information.</p>
-							<a href="adoption.html" class="btn">Adoption <img
+							<a href="adoption.jsp" class="btn">Adoption <img
 								src="./img/icon/w_pawprint.png" alt=""></a>
 						</div>
 					</div>
@@ -248,7 +248,7 @@
 								</div>
 								<div class="content">
 									<h3 class="title">
-										<a href="breeder-details.html">Golden Retriever</a>
+										<a href="breeder_Details.jsp">Golden Retriever</a>
 									</h3>
 								</div>
 							</div>
@@ -258,7 +258,7 @@
 								</div>
 								<div class="content">
 									<h3 class="title">
-										<a href="breeder-details.html">German Sharped</a>
+										<a href="breeder_Details.jsp">German Sharped</a>
 									</h3>
 								</div>
 							</div>
@@ -268,7 +268,7 @@
 								</div>
 								<div class="content">
 									<h3 class="title">
-										<a href="breeder-details.html">Siberian Husky</a>
+										<a href="breeder_Details.jsp">Siberian Husky</a>
 									</h3>
 								</div>
 							</div>
@@ -278,7 +278,7 @@
 								</div>
 								<div class="content">
 									<h3 class="title">
-										<a href="breeder-details.html">Bernes Mountain</a>
+										<a href="breeder_Details.jsp">Bernes Mountain</a>
 									</h3>
 								</div>
 							</div>
@@ -291,7 +291,7 @@
 							<h3 class="title">Available for Breed</h3>
 							<p>The best overall dog DNA test is Embark Breed & Health Kit
 								(view at Chewy), which provid dogs</p>
-							<a href="dog-list.html" class="btn">More Pets <img
+							<a href="dog_List.jsp" class="btn">More Pets <img
 								src="./img/icon/w_pawprint.png" alt=""></a>
 						</div>
 					</div>

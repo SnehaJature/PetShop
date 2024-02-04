@@ -46,7 +46,7 @@
                                         <div class="slider-desc">
                                             <p class="desc" data-animation="fadeInUpBig" data-delay=".4s" data-duration="1.2s">Human Shampoo on Dogs After six days of delirat, the jury found Hernandez guilty of first-degree murder</p>
                                         </div>
-                                        <a href="dog-list.html" class="btn" data-animation="fadeInUpBig" data-delay=".6s" data-duration="1.2s">View More <img src="./img/icon/w_pawprint.png" alt=""></a>
+                                        <a href="dog_List.jsp" class="btn" data-animation="fadeInUpBig" data-delay=".6s" data-duration="1.2s">View More <img src="./img/icon/w_pawprint.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@
                                         <div class="slider-desc">
                                             <p class="desc" data-animation="fadeInUpBig" data-delay=".4s" data-duration="1.2s">Human Shampoo on Dogs After six days of delirat, the jury found Hernandez guilty of first-degree murder</p>
                                         </div>
-                                        <a href="dog-list.html" class="btn" data-animation="fadeInUpBig" data-delay=".6s" data-duration="1.2s">View More <img src="./img/icon/w_pawprint.png" alt=""></a>
+                                        <a href="dog_List.jsp" class="btn" data-animation="fadeInUpBig" data-delay=".6s" data-duration="1.2s">View More <img src="./img/icon/w_pawprint.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -78,7 +78,7 @@
                 <div class="container custom-container">
                     <div class="row">
                         <div class="col-12">
-                            <form action="index-2.html#">
+                            <form action="index-2.jsp#">
                                 <div class="find-wrap">
                                     <div class="location">
                                         <i class="flaticon-location"></i>
@@ -86,9 +86,9 @@
                                     </div>
                                     <div class="find-category">
                                         <ul>
-                                            <li><a href="shop.html"><i class="flaticon-dog"></i> Find Your Dog</a></li>
-                                            <li><a href="shop.html"><i class="flaticon-happy"></i> Find Your Cat</a></li>
-                                            <li><a href="shop.html"><i class="flaticon-dove"></i> Find Your Birds</a></li>
+                                            <li><a href="shop.jsp"><i class="flaticon-dog"></i> Find Your Dog</a></li>
+                                            <li><a href="shop.jsp"><i class="flaticon-happy"></i> Find Your Cat</a></li>
+                                            <li><a href="shop.jsp"><i class="flaticon-dove"></i> Find Your Birds</a></li>
                                         </ul>
                                     </div>
                                     <div class="other-find">
@@ -98,9 +98,9 @@
                                                 Find Other Pets
                                             </button>
                                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                <a class="dropdown-item" href="shop.html">Find Your Dog</a>
-                                                <a class="dropdown-item" href="shop.html">Find Your Cat</a>
-                                                <a class="dropdown-item" href="shop.html">Find Your Birds</a>
+                                                <a class="dropdown-item" href="shop.jsp">Find Your Dog</a>
+                                                <a class="dropdown-item" href="shop.jsp">Find Your Cat</a>
+                                                <a class="dropdown-item" href="shop.jsp">Find Your Birds</a>
                                             </div>
                                         </div>
                                     </div>
@@ -130,27 +130,27 @@
                                     <div class="col-md-6">
                                         <div class="breeder-active owl-carousel">
                                             <div class="breeder-item">
-                                                <a href="breeder-details.html">
+                                                <a href="breeder_Details.jsp">
                                                     <img src="./img/images/breeder_img01.jpg" alt="">
                                                 </a>
                                             </div>
                                             <div class="breeder-item">
-                                                <a href="breeder-details.html">
+                                                <a href="breeder_Details.jsp">
                                                     <img src="./img/images/breeder_img02.jpg" alt="">
                                                 </a>
                                             </div>
                                             <div class="breeder-item">
-                                                <a href="breeder-details.html">
+                                                <a href="breeder_Details.jsp">
                                                     <img src="./img/images/breeder_img03.jpg" alt="">
                                                 </a>
                                             </div>
                                             <div class="breeder-item">
-                                                <a href="breeder-details.html">
+                                                <a href="breeder_Details.jsp">
                                                     <img src="./img/images/breeder_img04.jpg" alt="">
                                                 </a>
                                             </div>
                                             <div class="breeder-item">
-                                                <a href="breeder-details.html">
+                                                <a href="breeder_Details.jsp">
                                                     <img src="./img/images/breeder_img05.jpg" alt="">
                                                 </a>
                                             </div>
@@ -161,7 +161,7 @@
                                             <h5 class="sub-title">Dog Breeder</h5>
                                             <h3 class="title">Available for Breed</h3>
                                             <p>The best overall dog DNA test is Embark Breed & Health Kit (view at Chewy), which provid dogs</p>
-                                            <a href="dog-list.html" class="btn">More Pets <img src="./img/icon/w_pawprint.png" alt=""></a>
+                                            <a href="dog_List.jsp" class="btn">More Pets <img src="./img/icon/w_pawprint.png" alt=""></a>
                                         </div>
                                     </div>
                                 </div>
@@ -222,70 +222,70 @@
                         <div class="col-xl-3">
                             <div class="adoption-item">
                                 <div class="adopt-thumb">
-                                    <a href="breeder-details.html"><img src="./img/images/adop_img01.png" alt=""></a>
+                                    <a href="breeder_Details.jsp"><img src="./img/images/adop_img01.png" alt=""></a>
                                     <span class="status">Free</span>
                                 </div>
                                 <div class="adopt-content">
                                     <div class="adopt-date"><i class="far fa-calendar-alt"></i> Birth : 2021</div>
-                                    <h3 class="title"><a href="breeder-details.html">Golden Retriever</a></h3>
+                                    <h3 class="title"><a href="breeder_Details.jsp">Golden Retriever</a></h3>
                                     <p>The Golden Retriever is a medium-large gun dog that was bred.</p>
-                                    <a href="breeder-details.html" class="read-more">Read More <img src="./img/icon/pawprint.png" alt=""></a>
+                                    <a href="breeder_Details.jsp" class="read-more">Read More <img src="./img/icon/pawprint.png" alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-3">
                             <div class="adoption-item">
                                 <div class="adopt-thumb">
-                                    <a href="breeder-details.html"><img src="./img/images/adop_img02.png" alt=""></a>
+                                    <a href="breeder_Details.jsp"><img src="./img/images/adop_img02.png" alt=""></a>
                                     <span class="status">Free</span>
                                 </div>
                                 <div class="adopt-content">
                                     <div class="adopt-date"><i class="far fa-calendar-alt"></i> Birth : 2021</div>
-                                    <h3 class="title"><a href="breeder-details.html">German Sharped</a></h3>
+                                    <h3 class="title"><a href="breeder_Details.jsp">German Sharped</a></h3>
                                     <p>The German Shepherd is a breed of medium to large-sized.</p>
-                                    <a href="breeder-details.html" class="read-more">Read More <img src="./img/icon/pawprint.png" alt=""></a>
+                                    <a href="breeder_Details.jsp" class="read-more">Read More <img src="./img/icon/pawprint.png" alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-3">
                             <div class="adoption-item">
                                 <div class="adopt-thumb">
-                                    <a href="breeder-details.html"><img src="./img/images/adop_img03.png" alt=""></a>
+                                    <a href="breeder_Details.jsp"><img src="./img/images/adop_img03.png" alt=""></a>
                                     <span class="status">Free</span>
                                 </div>
                                 <div class="adopt-content">
                                     <div class="adopt-date"><i class="far fa-calendar-alt"></i> Birth : 2021</div>
-                                    <h3 class="title"><a href="breeder-details.html">Siberian Husky</a></h3>
+                                    <h3 class="title"><a href="breeder_Details.jsp">Siberian Husky</a></h3>
                                     <p>The Siberian Husky is a medium-sized working sled dog breed.</p>
-                                    <a href="breeder-details.html" class="read-more">Read More <img src="./img/icon/pawprint.png" alt=""></a>
+                                    <a href="breeder_Details.jsp" class="read-more">Read More <img src="./img/icon/pawprint.png" alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-3">
                             <div class="adoption-item">
                                 <div class="adopt-thumb">
-                                    <a href="breeder-details.html"><img src="./img/images/adop_img04.png" alt=""></a>
+                                    <a href="breeder_Details.jsp"><img src="./img/images/adop_img04.png" alt=""></a>
                                     <span class="status">Free</span>
                                 </div>
                                 <div class="adopt-content">
                                     <div class="adopt-date"><i class="far fa-calendar-alt"></i> Birth : 2021</div>
-                                    <h3 class="title"><a href="breeder-details.html">French Bulldog</a></h3>
+                                    <h3 class="title"><a href="breeder_Details.jsp">French Bulldog</a></h3>
                                     <p>French Bulldog is a breed of domestic dog, bred to be companion.</p>
-                                    <a href="breeder-details.html" class="read-more">Read More <img src="./img/icon/pawprint.png" alt=""></a>
+                                    <a href="breeder_Details.jsp" class="read-more">Read More <img src="./img/icon/pawprint.png" alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-3">
                             <div class="adoption-item">
                                 <div class="adopt-thumb">
-                                    <a href="breeder-details.html"><img src="./img/images/adop_img05.png" alt=""></a>
+                                    <a href="breeder_Details.jsp"><img src="./img/images/adop_img05.png" alt=""></a>
                                     <span class="status">Free</span>
                                 </div>
                                 <div class="adopt-content">
                                     <div class="adopt-date"><i class="far fa-calendar-alt"></i> Birth : 2021</div>
-                                    <h3 class="title"><a href="breeder-details.html">Siberian Husky</a></h3>
+                                    <h3 class="title"><a href="breeder_Details.jsp">Siberian Husky</a></h3>
                                     <p>French Bulldog is a breed of domestic dog, bred to be companion.</p>
-                                    <a href="breeder-details.html" class="read-more">Read More <img src="./img/icon/pawprint.png" alt=""></a>
+                                    <a href="breeder_Details.jsp" class="read-more">Read More <img src="./img/icon/pawprint.png" alt=""></a>
                                 </div>
                             </div>
                         </div>
@@ -428,63 +428,63 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="blog-post-item mb-50">
                                 <div class="blog-post-thumb">
-                                    <a href="blog-details.html"><img src="./img/blog/blog_post_thumb01.jpg" alt=""></a>
+                                    <a href="blog_Details.jsp"><img src="./img/blog/blog_post_thumb01.jpg" alt=""></a>
                                     <div class="blog-post-tag">
-                                        <a href="index-2.html#"><i class="flaticon-bookmark-1"></i>Sharped</a>
+                                        <a href="index-2.jsp#"><i class="flaticon-bookmark-1"></i>Sharped</a>
                                     </div>
                                 </div>
                                 <div class="blog-post-content">
                                     <div class="blog-post-meta">
                                         <ul>
-                                            <li><i class="far fa-user"></i><a href="index-2.html#">Admin</a></li>
+                                            <li><i class="far fa-user"></i><a href="index-2.jsp#">Admin</a></li>
                                             <li><i class="far fa-bell"></i> Mar 10, 2021</li>
                                         </ul>
                                     </div>
-                                    <h3 class="title"><a href="blog-details.html">Working For Dog Adoption</a></h3>
+                                    <h3 class="title"><a href="blog_Details.jsp">Working For Dog Adoption</a></h3>
                                     <p>The best overall dog test is Embark Breed & Health Kit view at Chewy.</p>
-                                    <a href="blog-details.html" class="read-more">Read More <img src="./img/icon/pawprint.png" alt=""></a>
+                                    <a href="blog_Details.jsp" class="read-more">Read More <img src="./img/icon/pawprint.png" alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
                             <div class="blog-post-item mb-50">
                                 <div class="blog-post-thumb">
-                                    <a href="blog-details.html"><img src="./img/blog/blog_post_thumb02.jpg" alt=""></a>
+                                    <a href="blog_Details.jsp"><img src="./img/blog/blog_post_thumb02.jpg" alt=""></a>
                                     <div class="blog-post-tag">
-                                        <a href="index-2.html#"><i class="flaticon-bookmark-1"></i>Creative</a>
+                                        <a href="index-2.jsp#"><i class="flaticon-bookmark-1"></i>Creative</a>
                                     </div>
                                 </div>
                                 <div class="blog-post-content">
                                     <div class="blog-post-meta">
                                         <ul>
-                                            <li><i class="far fa-user"></i><a href="index-2.html#">Admin</a></li>
+                                            <li><i class="far fa-user"></i><a href="index-2.jsp#">Admin</a></li>
                                             <li><i class="far fa-bell"></i> Mar 12, 2021</li>
                                         </ul>
                                     </div>
-                                    <h3 class="title"><a href="blog-details.html">Dog Derived From an Ancient</a></h3>
+                                    <h3 class="title"><a href="blog_Details.jsp">Dog Derived From an Ancient</a></h3>
                                     <p>The best overall dog test is Embark Breed & Health Kit view at Chewy.</p>
-                                    <a href="blog-details.html" class="read-more">Read More <img src="./img/icon/pawprint.png" alt=""></a>
+                                    <a href="blog_Details.jsp" class="read-more">Read More <img src="./img/icon/pawprint.png" alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
                             <div class="blog-post-item mb-50">
                                 <div class="blog-post-thumb">
-                                    <a href="blog-details.html"><img src="./img/blog/blog_post_thumb03.jpg" alt=""></a>
+                                    <a href="blog_Details.jsp"><img src="./img/blog/blog_post_thumb03.jpg" alt=""></a>
                                     <div class="blog-post-tag">
-                                        <a href="index-2.html#"><i class="flaticon-bookmark-1"></i>Business</a>
+                                        <a href="index-2.jsp#"><i class="flaticon-bookmark-1"></i>Business</a>
                                     </div>
                                 </div>
                                 <div class="blog-post-content">
                                     <div class="blog-post-meta">
                                         <ul>
-                                            <li><i class="far fa-user"></i><a href="index-2.html#">Admin</a></li>
+                                            <li><i class="far fa-user"></i><a href="index-2.jsp#">Admin</a></li>
                                             <li><i class="far fa-bell"></i> Mar 12, 2021</li>
                                         </ul>
                                     </div>
-                                    <h3 class="title"><a href="blog-details.html">Ten Dog Breeds are Noted</a></h3>
+                                    <h3 class="title"><a href="blog_Details.jsp">Ten Dog Breeds are Noted</a></h3>
                                     <p>The best overall dog test is Embark Breed & Health Kit view at Chewy.</p>
-                                    <a href="blog-details.html" class="read-more">Read More <img src="./img/icon/pawprint.png" alt=""></a>
+                                    <a href="blog_Details.jsp" class="read-more">Read More <img src="./img/icon/pawprint.png" alt=""></a>
                                 </div>
                             </div>
                         </div>
@@ -504,7 +504,7 @@
                                     <p><span>*</span> Do Not Show Your Email.</p>
                                 </div>
                                 <div class="newsletter-form">
-                                    <form action="index-2.html#">
+                                    <form action="index-2.jsp#">
                                         <input type="email" placeholder="Enter Your Email...">
                                         <button type="submit" class="btn">Subscribe</button>
                                     </form>
