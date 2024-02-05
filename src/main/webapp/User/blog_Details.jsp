@@ -16,7 +16,9 @@
 
        	<jsp:include page="./components/header.jsp"></jsp:include>
 
-
+<h1>
+THis is an example to chek thisngs
+</h1>
         <!-- main-area -->
         <main>
 
