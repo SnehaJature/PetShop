@@ -35,7 +35,7 @@
 		<section class="slider-area">
 			<div class="slider-active">
 				<div class="single-slider slider-bg d-flex align-items-center"
-					data-background="./img/slider/slider_bg01.jpg">
+					data-background="../User/img/cat.avif">
 					<div class="container custom-container">
 						<div class="row">
 							<div class="col-xl-5 col-lg-7 col-md-10">
