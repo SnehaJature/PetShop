@@ -155,10 +155,10 @@ input:hover{
       <header>
         <h1 id="title">Login</h1>
       </header>
-      <form action="../index.jsp" method="post">
+      <form action="logindb.jsp" method="post">
 <!--         <input type="text" placeholder="name" id="name" name="name" required="required">
- -->        <input type="email" placeholder="Email" id="email" name="namefield" required="required">
-        <input type="password" placeholder="Password" id="password" name="password" required="required">
+ -->        <input type="email" placeholder="Email" id="email" name="name" required="required">
+        <input type="password" placeholder="Password" id="password" name="pass" required="required">
 <!--         <a id="Forgot" href="#">Forgot Password</a>
  -->        <input type="submit" value="Login" id="signinBtn" class="col-lg-6" data-aos="fade-right" data-aos-delay="100" onsubmit="document.write('hello');">
         <p id="signupBtn">
