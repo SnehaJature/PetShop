@@ -120,7 +120,7 @@
 								<button class="dropdown-toggle" type="button"
 									id="dropdownMenuButton2" data-toggle="dropdown"
 									aria-haspopup="true" aria-expanded="false">
-									<img src="img/icon/united-states.png" alt=""> English
+									<img src="img/icon/india.png" alt=""> English
 								</button>
 								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
 									<a class="dropdown-item" href="index.html"><img
@@ -128,7 +128,7 @@
 										class="dropdown-item" href="index.html"><img
 										src="img/icon/thailand.png" alt="">Thailand</a> <a
 										class="dropdown-item" href="index.html"><img
-										src="img/icon/india.png" alt="">India</a>
+										src="img/icon/united-states.png" alt="">India</a>
 								</div>
 							</div>
 						</div>
