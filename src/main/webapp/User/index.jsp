@@ -9,7 +9,7 @@
 <title>Petco - Pet Breeder & Adoption</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<jsp:include page="link.jsp"></jsp:include>
+<jsp:include page= "link.jsp"></jsp:include>
 </head>
 
 
@@ -35,7 +35,7 @@
 		<section class="slider-area">
 			<div class="slider-active">
 				<div class="single-slider slider-bg d-flex align-items-center"
-					data-background="./img/slider/slider_bg01.jpg">
+					data-background="../User/img/cat.avif">
 					<div class="container custom-container">
 						<div class="row">
 							<div class="col-xl-5 col-lg-7 col-md-10">
@@ -158,7 +158,7 @@
 					<div class="col-lg-3 col-md-4 col-sm-6">
 						<div class="counter-item">
 							<h2 class="count">
-								<span class="odometer" data-count="73"></span>%
+								<span class="odometer" data-count="85"></span>%
 							</h2>
 							<p>dogs are first bred</p>
 						</div>
@@ -166,7 +166,7 @@
 					<div class="col-lg-3 col-md-4 col-sm-6">
 						<div class="counter-item">
 							<h2 class="count">
-								<span class="odometer" data-count="259"></span>+
+								<span class="odometer" data-count="29"></span>+
 							</h2>
 							<p>Most dogs are first</p>
 						</div>
@@ -174,7 +174,7 @@
 					<div class="col-lg-3 col-md-4 col-sm-6">
 						<div class="counter-item">
 							<h2 class="count">
-								<span class="odometer" data-count="39"></span>K
+								<span class="odometer" data-count="25"></span>
 							</h2>
 							<p>Dog Breeding</p>
 						</div>
@@ -182,7 +182,7 @@
 					<div class="col-lg-3 col-md-4 col-sm-6">
 						<div class="counter-item">
 							<h2 class="count">
-								<span class="odometer" data-count="45"></span>+
+								<span class="odometer" data-count="01"></span>+
 							</h2>
 							<p>Years Of History</p>
 						</div>
@@ -503,7 +503,7 @@
 										<li class="rating"><i class="fas fa-star"></i> <i
 											class="fas fa-star"></i> <i class="fas fa-star"></i> <i
 											class="fas fa-star"></i> <i class="fas fa-star"></i></li>
-										<li class="price">Total Price : <span>$30</span></li>
+										<li class="price">Total Price : <span>₹30,000</span></li>
 									</ul>
 								</div>
 							</div>
@@ -532,7 +532,7 @@
 										<li class="rating"><i class="fas fa-star"></i> <i
 											class="fas fa-star"></i> <i class="fas fa-star"></i> <i
 											class="fas fa-star"></i> <i class="fas fa-star"></i></li>
-										<li class="price">Total Price : <span>$29</span></li>
+										<li class="price">Total Price : <span>₹25,000</span></li>
 									</ul>
 								</div>
 							</div>
@@ -547,12 +547,11 @@
 							</div>
 							<div class="adoption-shop-content">
 								<h4 class="title">
-									<a href="shop_Details.jsp">Canadian</a>
+									<a href="shop_Details.jsp">Collie</a>
 								</h4>
 								<div class="adoption-meta">
 									<ul>
-										<li><i class="fas fa-cog"></i><a href="index.jsp#">German
-												Sherped</a></li>
+										<li><i class="fas fa-cog"></i><a href="index.jsp#">Rough Collie</a></li>
 										<li><i class="far fa-calendar-alt"></i> Birth : 2021</li>
 									</ul>
 								</div>
@@ -561,7 +560,7 @@
 										<li class="rating"><i class="fas fa-star"></i> <i
 											class="fas fa-star"></i> <i class="fas fa-star"></i> <i
 											class="fas fa-star"></i> <i class="fas fa-star"></i></li>
-										<li class="price">Total Price : <span>$39</span></li>
+										<li class="price">Total Price : <span>₹ 3,50,000</span></li>
 									</ul>
 								</div>
 							</div>
@@ -580,8 +579,7 @@
 								</h4>
 								<div class="adoption-meta">
 									<ul>
-										<li><i class="fas fa-cog"></i><a href="index.jsp#">Siberian
-												Husky</a></li>
+										<li><i class="fas fa-cog"></i><a href="index.jsp#">Golden Retriver</a></li>
 										<li><i class="far fa-calendar-alt"></i> Birth : 2021</li>
 									</ul>
 								</div>
@@ -590,7 +588,7 @@
 										<li class="rating"><i class="fas fa-star"></i> <i
 											class="fas fa-star"></i> <i class="fas fa-star"></i> <i
 											class="fas fa-star"></i> <i class="fas fa-star"></i></li>
-										<li class="price">Total Price : <span>Free</span></li>
+										<li class="price">Total Price : <span>₹ Free</span></li>
 									</ul>
 								</div>
 							</div>
@@ -619,7 +617,7 @@
 										<li class="rating"><i class="fas fa-star"></i> <i
 											class="fas fa-star"></i> <i class="fas fa-star"></i> <i
 											class="fas fa-star"></i> <i class="fas fa-star"></i></li>
-										<li class="price">Total Price : <span>Free</span></li>
+										<li class="price">Total Price : <span>₹ Free</span></li>
 									</ul>
 								</div>
 							</div>
@@ -819,36 +817,7 @@
 		<!--  blog-area-end
 
             newsletter-area -->
-		<div class="newsletter-area pb-110">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<div class="newsletter-wrap">
-							<div class="newsletter-content">
-								<h2 class="title">Newsletter For</h2>
-								<p>
-									<span>*</span> Do Not Show Your Email.
-								</p>
-							</div>
-							<div class="newsletter-form">
-								<form action="index.jsp#">
-									<input type="email" placeholder="Enter Your Email...">
-									<button type="submit" class="btn">Subscribe</button>
-								</form>
-							</div>
-							<div class="newsletter-shape">
-								<img src="./img/images/newsletter_shape01.png" alt="">
-							</div>
-							<div class="newsletter-shape shape-two">
-								<img src="./img/images/newsletter_shape02.png" alt="">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--             newsletter-area-end
- -->
+		
 	</main>
 	<!--  main-area-end-->
 

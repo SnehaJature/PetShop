@@ -50,20 +50,43 @@
 								</div>
 								<div class="navbar-wrap main-menu d-none d-lg-flex">
 									<ul class="navigation">
-										<li class="active menu-item-has-children"><a
-											href="index.jsp">Home</a>
-											<ul class="submenu">
+										<li class="menu-item-has-children"><a href="index.jsp">Home</a>
+											<!-- <ul class="submenu">
 												<li class="active"><a href="index.jsp">Home One</a></li>
 												<li><a href="index-2.jsp">Home Two</a></li>
+											</ul></li> -->
+										<li class="menu-item-has-children"><a href="dog_List.jsp">Dog List</a>
+											<ul class="submenu">
+												<li class="active"><a href="shop_Details.jsp">Sporting
+														Group</a></li>
+												<li><a href="shop_Details.jsp">Hound Group</a></li>
+												<li><a href="shop_Details.jsp">Toy Group</a></li>
+												<li><a href="shop_Details.jsp">Non-Sporting Group</a></li>
+												<li><a href="shop_Details.jsp">Working Group</a></li>
+
 											</ul></li>
-										<li><a href="dog_List.jsp">Dog List</a></li>
+
+										<li class="menu-item-has-children"><a href="cat_List.jsp">Cat List</a>
+
+											<ul class="submenu">
+												<li class="active"><a href="shop_Details.jsp">Abyssinian</a></li>
+												<li><a href="shop_Details.jsp">American Shorthair</a></li>
+												<li><a href="shop_Details.jsp">British Shorthair</a></li>
+												<li><a href="shop_Details.jsp">Exotic</a></li>
+												<li><a href="shop_Details.jsp">Maine Coon</a></li>
+
+											</ul></li>
+
+
+
 										<li class="menu-item-has-children"><a href="shop.jsp">Shop</a>
 											<ul class="submenu">
 												<li><a href="shop.jsp">Our Shop</a></li>
 												<li><a href="shop_Details.jsp">Shop Details</a></li>
 											</ul></li>
 										<li><a href="adoption.jsp">Adoption</a></li>
-										<li class="menu-item-has-children"><a href="breeder.jsp">Breeder</a>
+
+										<!--<li class="menu-item-has-children"><a href="breeder.jsp">Breeder</a>
 											<ul class="submenu">
 												<li><a href="breeder.jsp">Our Breeder</a></li>
 												<li><a href="breeder_Details.jsp">Breeder Details</a></li>
@@ -72,7 +95,7 @@
 											<ul class="submenu">
 												<li><a href="blog.jsp">Our Blog</a></li>
 												<li><a href="blog_Details.jsp">Blog Details</a></li>
-											</ul></li>
+											</ul></li> -->
 										<li><a href="contact.jsp">contacts</a></li>
 									</ul>
 								</div>
@@ -153,16 +176,14 @@
 								</div>
 								<div class="social-links">
 									<ul class="clearfix">
-										<li><a href="index.jsp#"><span
-												class="fab fa-twitter"></span></a></li>
+										<li><a href="index.jsp#"><span class="fab fa-twitter"></span></a></li>
 										<li><a href="index.jsp#"><span
 												class="fab fa-facebook-square"></span></a></li>
 										<li><a href="index.jsp#"><span
 												class="fab fa-pinterest-p"></span></a></li>
 										<li><a href="index.jsp#"><span
 												class="fab fa-instagram"></span></a></li>
-										<li><a href="index.jsp#"><span
-												class="fab fa-youtube"></span></a></li>
+										<li><a href="index.jsp#"><span class="fab fa-youtube"></span></a></li>
 									</ul>
 								</div>
 							</nav>
