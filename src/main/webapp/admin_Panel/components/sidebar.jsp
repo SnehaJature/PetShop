@@ -11,27 +11,24 @@
 		<div class="sidebar-inner slimscroll">
 			<div id="sidebar-menu" class="sidebar-menu">
 				<ul>
-					<li class="menu-title"><span>Main Menu</span></li>
-					<li><a href="./prerequisites.jsp"><i
-							class="fas fa-graduation-cap"></i> <span>Prerequisites</span></a></li>
+<!-- 					<li class="menu-title"><span>Main Menu</span></li>
+ -->					<li><a href="./index.jsp"><i
+							class="fas fa-graduation-cap"></i> <span>Dashboard</span></a></li>
 					<li class="submenu"><a href="#"><i
-							class="fas fa-chalkboard-teacher"></i> <span> Academic
-								Year</span> <span class="menu-arrow"></span></a>
+							class="fas fa-chalkboard-teacher"></i> <span>Category Section</span> <span class="menu-arrow"></span></a>
 						<ul>
-							<li><a href="./add_Academic_Year.jsp">Academic Year
-									Entry</a></li>
-							<li><a href="academicYearChange.jsp">Academic Year
-									Change</a></li>
-
+							<li><a href="./add_Category.jsp">Add Category
+									</a></li>
+							
 						</ul></li>
 					<li class="submenu"><a href="#"><i class="fas fa-building"></i>
-							<span> Section</span> <span class="menu-arrow"></span></a>
+							<span>Breed Section</span> <span class="menu-arrow"></span></a>
 						<ul>
-							<li><a href="add_Section.jsp">Add Section</a></li>
-							<li><a href="assign_Section.jsp">Assign Section </a></li>
-						</ul></li>
+							<li><a href="add_Breed.jsp">Add Breed</a></li>
+<!-- 							<li><a href="assign_Section.jsp">Assign Section </a></li>
+ -->						</ul></li>
 					<li class="submenu"><a href="#"><i
-							class="fas fa-book-reader"></i> <span> Class</span> <span
+							class="fas fa-book-reader"></i> <span>Adoption Section</span> <span
 							class="menu-arrow"></span></a>
 						<ul>
 							<li><a href="add_Class.jsp"> Class Create </a></li>
@@ -45,13 +42,13 @@
 
 						</ul></li>
 					<li class="submenu"><a href="#"><i
-							class="fas fa-book-reader"></i> <span> Division</span> <span
+							class="fas fa-book-reader"></i> <span>Shop Section</span> <span
 							class="menu-arrow"></span></a>
 						<ul>
 							<li><a href="add_Division.jsp">Division Add</a></li>
 							<li><a href="divisionList.jsp">Division Update</a></li>
 						</ul></li>
-					<li class="submenu"><a href="#"><i class="fas fa-male"></i>
+					<!-- <li class="submenu"><a href="#"><i class="fas fa-male"></i>
 							<span> Staff</span> <span class="menu-arrow"></span></a>
 						<ul>
 							<li><a href="add_Staff.jsp">Add Staff</a></li>
@@ -59,17 +56,17 @@
 							<li><a href="update_Staff.jsp">Update Staff</a></li>
 
 
-						</ul></li>
-					<li class="submenu"><a href="#"><i class="fas fa-user"></i>
+						</ul></li> -->
+					<!-- <li class="submenu"><a href="#"><i class="fas fa-user"></i>
 							<span> Student</span> <span class="menu-arrow"></span></a>
 						<ul>
 							<li><a href="student_Entry_Form.jsp">Student Entry Form </a></li>
-							<!--  <li><a href="shortEntryForm.jsp">Short Entry Form</a></li>
-						<li><a href="fullEntryForm.jsp">Full Entry Form</a></li> -->
+							 <li><a href="shortEntryForm.jsp">Short Entry Form</a></li>
+						<li><a href="fullEntryForm.jsp">Full Entry Form</a></li>
 							<li><a href="student_List.jsp">View</a></li>
 							<li><a href="download_Details.jsp">Download Details</a></li>
 							<li><a href="generateStudentICard.jsp">Generate I-card</a></li>
-							<!--  <li><a href="otherDetails.jsp">Other Details</a></li> -->
+							 <li><a href="otherDetails.jsp">Other Details</a></li>
 							<li><a href="birthday_Details.jsp">Birthday Details</a></li>
 							<li><a href="">Shift Students</a></li>
 							<li><a href="cast_categorywise_Details.jsp">Yearly Caste
@@ -85,7 +82,7 @@
 							<li><a href="fullEntryForm.jsp">Roll No List</a></li>
 
 						</ul></li>
-						</ul>
+						</ul> -->
 
 <!-- 					<li><a href="timetable.jsp"><i class="fas fa-table"></i> <span>TimeTable</span></a></li>
 					<li class="submenu"><a href="#"><i class="fas fa-folder"></i>
