@@ -151,23 +151,17 @@ input:hover{
 </head>
 <body>
 	 <div class="container">
-    <div class="form-box">
-      <header>
-        <h1 id="title">Login</h1>
-      </header>
-      <form action="logindb.jsp" method="post">
-<!--         <input type="text" placeholder="name" id="name" name="name" required="required">
- -->        <input type="email" placeholder="Email" id="email" name="name" required="required">
-        <input type="password" placeholder="Password" id="password" name="pass" required="required">
-<!--         <a id="Forgot" href="#">Forgot Password</a>
- -->        <input type="submit" value="Login" id="signinBtn" class="col-lg-6" data-aos="fade-right" data-aos-delay="100" onsubmit="document.write('hello');">
-        <p id="signupBtn">
-          Don't Have Account? <a href="signup.jsp" id="signupLink">Sign Up</a>
-        </p>
-        <p id="loginBack">
-          Already have an account. <a href="" id="loginLink">Login</a>
-        </p> 
-      </form>
+      <div class="form-box">
+        <header>
+         <h1 id="title">Login</h1>
+        </header>
+         <form action="logindb.jsp" method="post">
+         <input type="email" placeholder="Email" id="email" name="name" required="required">
+         <input type="password" placeholder="Password" id="password" name="pass" required="required">
+         <input type="submit" value="Login" id="signinBtn" class="col-lg-6" data-aos="fade-right" data-aos-delay="100" onsubmit="document.write('hello');">
+          <p id="signupBtn">Don't Have Account? <a href="signup.jsp" id="signupLink">Sign Up</a></p>
+          <p id="loginBack">Already have an account. <a href="" id="loginLink">Login</a></p> 
+         </form>
     </div>
   </div>
 

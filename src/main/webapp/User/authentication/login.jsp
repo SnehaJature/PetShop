@@ -6,8 +6,8 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <%-- <jsp:include page="../link.jsp"></jsp:include>
- --%><style>
-
+ --%>
+<style>
 body {
 	background-image: url('../img/dogy2.jpg');
 	background-repeat: no-repeat;
@@ -69,15 +69,15 @@ input[type="text"] {
 
 a {
 	text-decoration: none;
-	color:#e72416;
+	color: #e72416;
 	font-size: 14px;
 }
 
 input[type="button"] {
 	width: 100%;
 	margin-block: 30px;
- 	background-color: #e72416;
- 	color: #ffffff;
+	background-color: #e72416;
+	color: #ffffff;
 	font-size: 22px;
 	font-weight: 700;
 	border-radius: 8px;
@@ -101,7 +101,7 @@ input[type="button"]:hover {
 #signupBtn a {
 	font-size: 16px;
 	font-weight: 700;
-	color:#e72416;
+	color: #e72416;
 }
 
 #loginBack a {
@@ -122,26 +122,24 @@ input[type="button"]:hover {
 	text-underline-offset: 3.5px;
 }
 
-input:hover{
-	background-color:#f5f2eb;
-
+input:hover {
+	background-color: #f5f2eb;
 }
 
- 
-    #signupBtn, #loginBack {
-      display: block;
-    }
+#signupBtn, #loginBack {
+	display: block;
+}
 
-    #loginBack {
-      display: none;
-    }
-    
-    #loginLink{
-    color:#e72416;
-    }
+#loginBack {
+	display: none;
+}
 
-#signinBtn{
-	background-color:#e72416; 
+#loginLink {
+	color: #e72416;
+}
+
+#signinBtn {
+	background-color: #e72416;
 }
 
 /* CSS  to achieve responsiveness */
@@ -150,27 +148,21 @@ input:hover{
 </style>
 </head>
 <body>
-	 <div class="container">
-    <div class="form-box">
-      <header>
-        <h1 id="title">Login</h1>
-      </header>
-      <form action="../index.jsp" method="post">
-<!--         <input type="text" placeholder="name" id="name" name="name" required="required">
- -->        <input type="email" placeholder="Email" id="email" name="namefield" required="required">
-        <input type="password" placeholder="Password" id="password" name="password" required="required">
-<!--         <a id="Forgot" href="#">Forgot Password</a>
- -->        <input type="submit" value="Login" id="signinBtn" class="col-lg-6" data-aos="fade-right" data-aos-delay="100" onsubmit="document.write('hello');">
-        <p id="signupBtn">
-          Don't Have Account? <a href="signup.jsp" id="signupLink">Sign Up</a>
-        </p>
-        <p id="loginBack">
-          Already have an account. <a href="" id="loginLink">Login</a>
-        </p> 
-      </form>
-    </div>
-  </div>
-
-  
+	<div class="container">
+		<div class="form-box">
+			<header>
+				<h1 id="title">Login</h1>
+			</header>
+			<form action="UserLogin.jsp" method="post">
+ 
+				<input type="email" placeholder="Email" id="email" name="email" required="required"> 
+				<input type="password" placeholder="Password" id="password" name="password" required="required">
+				
+				<input type="submit" value="Login" id="signinBtn" class="col-lg-6" data-aos="fade-right" data-aos-delay="100" onsubmit="document.write('hello');">
+				<p id="signupBtn"> Don't Have Account? <a href="signup.jsp" id="signupLink">SignUp</a></p>
+				<p id="loginBack">Already have an account<a href="" id="loginLink">Login</a></p>
+			</form>
+		</div>
+	</div>
 </body>
 </html>

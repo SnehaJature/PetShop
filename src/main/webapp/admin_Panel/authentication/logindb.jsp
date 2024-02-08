@@ -14,13 +14,13 @@
 
 	<%
 	String username = request.getParameter("user");
-	String password = request.getParameter("pass");
-
+	String pass = request.getParameter("pass");
+    out.println()
 	Connection con = ConnectionProvider.con();
 	PreparedStatement ps = con.prepareStatement("select * from admin_login where email=? and password=?");
 	ps.setString(1, username);
-	ps.setString(2, password);
-
+	ps.setString(2, pass);
+    
 	ResultSet rs = ps.executeQuery();
 
 	if (rs.next()) {
