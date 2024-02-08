@@ -15,7 +15,6 @@
 	<%
 	String username = request.getParameter("user");
 	String pass = request.getParameter("pass");
-    out.println()
 	Connection con = ConnectionProvider.con();
 	PreparedStatement ps = con.prepareStatement("select * from admin_login where email=? and password=?");
 	ps.setString(1, username);

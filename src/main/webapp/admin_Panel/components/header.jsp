@@ -73,7 +73,7 @@
 					</div>
 					<a class="dropdown-item" href="profile.jsp">My Profile</a> <a
 						class="dropdown-item" href="index.jsp">Home</a> <a
-						class="dropdown-item" href="login.jsp">Logout</a>
+						class="dropdown-item" href="./authentication/login.jsp">Logout</a>
 				</div></li>
 
 		</ul>
