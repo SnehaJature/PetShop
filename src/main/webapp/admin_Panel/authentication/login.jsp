@@ -9,7 +9,7 @@
  --%><style>
 
 body {
-	background-image: url('../img/dogy2.jpg');
+	background-image: url('../assets/img/kitty.jpeg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -151,6 +151,7 @@ input:hover{
 </head>
 <body>
 	 <div class="container">
+ 
       <div class="form-box">
         <header>
          <h1 id="title">Login</h1>
@@ -162,6 +163,7 @@ input:hover{
           <p id="signupBtn">Don't Have Account? <a href="signup.jsp" id="signupLink">Sign Up</a></p>
           <p id="loginBack">Already have an account. <a href="" id="loginLink">Login</a></p> 
          </form>
+
     </div>
   </div>
 

@@ -106,9 +106,7 @@
 						<form action="index.jsp#">
 							<div class="find-wrap">
 								<div class="location">
-									<i class="flaticon-location"></i> <input type="text"
-										value="Enter City, State. or Zip">
-								</div>
+								<i class="flaticon-location"></i> <input type="text" value="Enter City, State. or Zip"></div>
 								<div class="find-category">
 									<ul>
 										<li><a href="shop.jsp"><i class="flaticon-dog"></i>
