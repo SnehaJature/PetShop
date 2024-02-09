@@ -9,7 +9,7 @@
  --%><style>
 
 body {
-	background-image: url('../img/dogy2.jpg');
+	background-image: url('../assets/img/kitty.jpeg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -151,6 +151,7 @@ input:hover{
 </head>
 <body>
 	 <div class="container">
+<<<<<<< HEAD
       <div class="form-box">
         <header>
          <h1 id="title">Login</h1>
@@ -162,6 +163,19 @@ input:hover{
           <p id="signupBtn">Don't Have Account? <a href="signup.jsp" id="signupLink">Sign Up</a></p>
           <p id="loginBack">Already have an account. <a href="" id="loginLink">Login</a></p> 
          </form>
+=======
+    <div class="form-box">
+      <header>
+        <h1 id="title">Login</h1>
+      </header>
+      <form action="../index.jsp" method="post">
+      <input type="email" placeholder="Email" id="email" name="namefield" required="required">
+        <input type="password" placeholder="Password" id="password" name="password" required="required">
+         <input type="submit" value="Login" id="signinBtn" class="col-lg-6" data-aos="fade-right" data-aos-delay="100" onsubmit="document.write('hello');">
+       
+       
+      </form>
+>>>>>>> 2c94085c55fe9d6da71f5a7f4942bf9fb458534c
     </div>
   </div>
 
