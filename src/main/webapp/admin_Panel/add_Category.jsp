@@ -1,3 +1,5 @@
+<%@page import="java.sql.PreparedStatement"%>
+<%@page import="com.petshop.ConnectionProvider"%>
 <%@page import="java.sql.Statement"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Connection"%>
@@ -13,6 +15,10 @@
 
 </head>
 <body>
+<% Connection con = ConnectionProvider.con();
+  PreparedStatement ps;
+
+%>
 	<div class="main-wrapper">
 		<jsp:include page="./components/header.jsp"></jsp:include>
 		<jsp:include page="./components/sidebar.jsp"></jsp:include>
@@ -24,7 +30,7 @@
 					<div class="col-sm-12">
 						<div class="card">
 							<div class="card-body">
-								<form id="addAcademicYear">
+								<form id="addcategorydb" >
 									<div class="row">
 										<div class="col-12">
 											<h5 class="form-title">
@@ -34,8 +40,13 @@
 										<div class="col-12 col-sm-6">
 											<div class="form-group ">
 												<label for="validationCustom01">Category Name
+
 													</label> <input type="text" name="categoryname" id="categoryname"
 													class="form-control" id="validationCustom01" required>
+
+													</label> <input type="text" name="categoryname"
+													class="form-control" id="categoryname" required>
+
 												<div class="valid-feedback">Looks good!</div>
 												<div class="invalid-feedback">Please Provide Name</div>
 											</div>
@@ -48,6 +59,7 @@
 											<button type="reset" class="btn btn-danger">Reset</button>
 
 										</div>
+										
 											</div>
 										</div>
 										
@@ -75,45 +87,22 @@
 											<th>Actions</th>
 										</tr>
 									</thead>
-									<%-- <tbody>
-										<%
-										try {
-											int cnt = 1;
-											Connection con = ConnectionProvider.getConnection();
-											Statement stmt = con.createStatement();
-											ResultSet rs = stmt.executeQuery("select * from academicyear");
-											while (rs.next()) {
-										%>
-
-										<tr class="text-center">
-											<td><%=cnt%></td>
-											<td><%=rs.getString("academicYear")%></td>
-											<td><%=rs.getString("nextAcademicYearDate")%></td>
-											<td class="">
-												<div class="actions ">
-													<a
-														href="update_Academic_Year.jsp?id=<%=rs.getInt("academicYearId")%>"
-														class="btn btn-sm bg-danger-light"> <i
-														class="feather-edit" data-bs-toggle="tooltip"
-														data-bs-placement="top" title="Update"></i>
-													</a>
-												</div>
-											</td>
-										</tr>
-
-
-										<%
-										cnt++;
-										}
-
-										} catch (Exception e) {
-										e.printStackTrace();
-										}
-										%>
-
+									<tbody>
+									
+									<% ps = con.prepareStatement("select * from category");
+									   ResultSet rs = ps.executeQuery();	
+									   int i=1;
+									   while(rs.next()) {%>
+									<tr>
+									      <td><%=i%></td>
+									      <td><%=rs.getString(2)%></td>
+									      <td><%=i %></td>
+									</tr>
+									      <% i++;} %>
+									   
 									</tbody>
-						 --%>		</table>
-							</div>
+									</table>
+									</div>
 						</div>
 					</div>
 				</div>
@@ -128,46 +117,41 @@
 	</div>
 
 	<script type="text/javascript">
-		$(document).ready(function() {
-			$("#addAcademicYear").submit(function(event) {
-				event.preventDefault();
-				console.log("Inside")
-				//let f = new FormData($("#addAcademicYear")[0])
-				   if ($("#addAcademicYear")[0].checkValidity() === false) {
-				        event.stopPropagation();
-				    } else {
-						$.ajax({
-							type : 'POST',
-							url : 'DB/academicYearDB.jsp',
-							data:$("#addAcademicYear").serialize(),
-							success : function(responce) {
-								console.log(responce.trim())
-								if (responce.trim() == "1") {
-									$("#addAcademicYear")[0].reset()
-									Swal.fire({
-										icon: 'success',
-										  title: 'AcademicYear Added Successfully ' ,
-										  confirmButtonText: 'Ok',
-										}).then((result) => {
-										  /* Read more about isConfirmed, isDenied below */
-											 window.location.reload();
-										})
-								} else {
-									Swal.fire({
-									icon: 'error',
-									title: 'AcademicYear cannot be added ' ,
-									confirmButtonText: 'Ok',
-									}).then((result) => {
-									/* Read more about isConfirmed, isDenied below */
-									})												
-								}
-							}
-						})
-				    }
-				    $("#addAcademicYear").addClass('was-validated');
-				});
-			})
-		
+	$(document).ready(function() {
+        $("#addcategorydb").submit(function(event) {
+            event.preventDefault();
+            console.log("Inside")
+            if ($("#addcategorydb")[0].checkValidity() === false) {
+                event.stopPropagation();
+            } else {
+                $.ajax({
+                    type: 'POST',
+                    url: 'addcategorydb.jsp',
+                    data: $("#addcategorydb").serialize(),
+                    success: function(response) {
+                        console.log(response.trim())
+                        if (response.trim() == "1") {
+                            $("#addcategorydb")[0].reset()
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Category Added Successfully',
+                                confirmButtonText: 'Ok',
+                            }).then((result) => {
+                                window.location.reload();
+                            })
+                        } else {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Category cannot be added',
+                                confirmButtonText: 'Ok',
+                            }).then((result) => {})
+                        }
+                    }
+                })
+            }
+            $("#addcategorydb.jsp").addClass('was-validated');
+        });
+    })
 	</script>
 
 </body>
