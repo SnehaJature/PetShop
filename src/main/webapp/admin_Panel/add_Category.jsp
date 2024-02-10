@@ -34,7 +34,7 @@
 										<div class="col-12 col-sm-6">
 											<div class="form-group ">
 												<label for="validationCustom01">Category Name
-													</label> <input type="text" name="academicYear"
+													</label> <input type="text" name="categoryname" id="categoryname"
 													class="form-control" id="validationCustom01" required>
 												<div class="valid-feedback">Looks good!</div>
 												<div class="invalid-feedback">Please Provide Name</div>

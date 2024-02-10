@@ -16,12 +16,12 @@
     Connection con = ConnectionProvider.con();
     PreparedStatement ps;
     
-    String name = request.getParameter("name");
-    String dob = request.getParameter("dob");
-    String no = request.getParameter("address");
-    String add = request.getParameter("mob");
+    String name  = request.getParameter("name");
+    String dob   = request.getParameter("dob");
+    String no    = request.getParameter("address");
+    String add   = request.getParameter("mob");
     String email = request.getParameter("email");
-    String pass = request.getParameter("password");
+    String pass  = request.getParameter("password");
     
     ps = con.prepareStatement("insert into user_details(name,dob,address,mobile_no,email,password)values(?,?,?,?,?,?)");
     
