@@ -15,11 +15,10 @@
 
 </head>
 <body>
-	<%
-	Connection con = ConnectionProvider.con();
-	PreparedStatement ps;
-	ResultSet rs;
-	%>
+<% Connection con = ConnectionProvider.con();
+  PreparedStatement ps;
+
+%>
 	<div class="main-wrapper">
 		<jsp:include page="./components/header.jsp"></jsp:include>
 		<jsp:include page="./components/sidebar.jsp"></jsp:include>
@@ -31,7 +30,7 @@
 					<div class="col-sm-12">
 						<div class="card">
 							<div class="card-body">
-								<form action="addcategorydb.jsp" id="add_Category">
+								<form id="addcategorydb" >
 									<div class="row">
 										<div class="col-12">
 											<h5 class="form-title">
@@ -40,25 +39,25 @@
 										</div>
 										<div class="col-12 col-sm-6">
 											<div class="form-group ">
-												<label for="validationCustom01" class="form-control">CategoryName</label>
-												<input type="text" class="form-control" name="categoryname"
-													id="categoryname" required />
+												<label for="validationCustom01">Category Name
+													</label> <input type="text" name="categoryname"
+													class="form-control" id="categoryname" required>
 												<div class="valid-feedback">Looks good!</div>
 												<div class="invalid-feedback">Please Provide Name</div>
 											</div>
 										</div>
 										<div class="col-12 col-sm-6">
 											<div class="form-group">
-												<div class="col-12 text-end">
+												<div class="col-12 text-end"> 
 
-													<button type="submit" class="btn btn-dark">Save</button>
-													<button type="reset" class="btn btn-danger">Reset</button>
+											<button type="submit" class="btn btn-dark">Save</button>
+											<button type="reset" class="btn btn-danger">Reset</button>
 
-												</div>
-											</div>
-											`
 										</div>
-
+										
+											</div>
+										</div>
+										
 									</div>
 								</form>
 							</div>
@@ -80,30 +79,25 @@
 										<tr class="text-center">
 											<th>Serial No.</th>
 											<th>Category Name</th>
+											<th>Actions</th>
 										</tr>
 									</thead>
-									<tbody id="listcontainer">
-										<%
-										ps = con.prepareStatement("select * from category");
-										rs = ps.executeQuery();
-										String name = "Ashish";
-										int id = 1;
-
-										while (rs.next()) {
-											System.out.println(rs.getString("category_id") + " - " + rs.getString("category_name"));
-										%>
-										<tr>
-
-											<td><%=rs.getString("category_id")%></td>
-											<td><%=rs.getString("category_name")%></td>
-
-										</tr>
-										<%
-										}
-										%>
+									<tbody>
+									
+									<% ps = con.prepareStatement("select * from category");
+									   ResultSet rs = ps.executeQuery();	
+									   int i=1;
+									   while(rs.next()) {%>
+									<tr>
+									      <td><%=i%></td>
+									      <td><%=rs.getString(2)%></td>
+									      <td><%=i %></td>
+									</tr>
+									      <% i++;} %>
+									   
 									</tbody>
-								</table>
-							</div>
+									</table>
+									</div>
 						</div>
 					</div>
 				</div>
@@ -118,33 +112,41 @@
 	</div>
 
 	<script type="text/javascript">
-		
-   $(document).ready(function() {
-		$("#add_Category").submit(function(event) {
-			event.preventDefault();
-			debugger
-			let f = new FormData($(this)[0]);
-
-			$.ajax({
-				 type: "POST",
-		            url: "addcategorydb.jsp",
-		            data: $("#add_Category").serialize(),
-				
-				success : function(response) {
-					debugger
-					
-					Swal.fire({
-						title : "Category Added Successfully",
-						text : "Click ok to continue !",
-						icon : "success"
-					}).then(()=>{
-		                  window.location.reload();
-					});					
-				},
-			});
-		});
-	});  
-		
+	$(document).ready(function() {
+        $("#addcategorydb").submit(function(event) {
+            event.preventDefault();
+            console.log("Inside")
+            if ($("#addcategorydb")[0].checkValidity() === false) {
+                event.stopPropagation();
+            } else {
+                $.ajax({
+                    type: 'POST',
+                    url: 'addcategorydb.jsp',
+                    data: $("#addcategorydb").serialize(),
+                    success: function(response) {
+                        console.log(response.trim())
+                        if (response.trim() == "1") {
+                            $("#addcategorydb")[0].reset()
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Category Added Successfully',
+                                confirmButtonText: 'Ok',
+                            }).then((result) => {
+                                window.location.reload();
+                            })
+                        } else {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Category cannot be added',
+                                confirmButtonText: 'Ok',
+                            }).then((result) => {})
+                        }
+                    }
+                })
+            }
+            $("#addcategorydb.jsp").addClass('was-validated');
+        });
+    })
 	</script>
 
 </body>
