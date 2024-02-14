@@ -164,21 +164,10 @@ input:hover{
           <p id="loginBack">Already have an account. <a href="" id="loginLink">Login</a></p> 
          </form>
 
-    <div class="form-box">
-      <header>
-        <h1 id="title">Login</h1>
-      </header>
-      <form action="../index.jsp" method="post">
-      <input type="email" placeholder="Email" id="email" name="namefield" required="required">
-        <input type="password" placeholder="Password" id="password" name="password" required="required">
-         <input type="submit" value="Login" id="signinBtn" class="col-lg-6" data-aos="fade-right" data-aos-delay="100" onsubmit="document.write('hello');">
-       
-       
-      </form>
+  </div>
+  </div>
 
-    </div>
-  </div>
-  </div>
+
 
   
 </body>

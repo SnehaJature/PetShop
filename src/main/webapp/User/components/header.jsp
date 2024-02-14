@@ -6,7 +6,6 @@
 <meta charset="UTF-8">
 <title>Header</title>
 <jsp:include page="../link.jsp"></jsp:include>
-
 </head>
 <body>
 	<header>
@@ -55,7 +54,8 @@
 												<li class="active"><a href="index.jsp">Home One</a></li>
 												<li><a href="index-2.jsp">Home Two</a></li>
 											</ul></li> -->
-										<li class="menu-item-has-children"><a href="dog_List.jsp">Dog List</a>
+										<li class="menu-item-has-children"><a href="dog_List.jsp">Dog
+												List</a>
 											<ul class="submenu">
 												<li class="active"><a href="shop_Details.jsp">Sporting
 														Group</a></li>
@@ -66,7 +66,8 @@
 
 											</ul></li>
 
-										<li class="menu-item-has-children"><a href="cat_List.jsp">Cat List</a>
+										<li class="menu-item-has-children"><a href="cat_List.jsp">Cat
+												List</a>
 
 											<ul class="submenu">
 												<li class="active"><a href="shop_Details.jsp">Abyssinian</a></li>
@@ -97,6 +98,16 @@
 												<li><a href="blog_Details.jsp">Blog Details</a></li>
 											</ul></li> -->
 										<li><a href="contact.jsp">contacts</a></li>
+<li class="menu-item-has-children"><a href="#"><i class="fa-solid fa-user"></i></a>
+										<ul class="submenu">
+												<li><a href="#">Sneha</a></li>
+												<li><a href="./authentication/login.jsp">Logout</a></li>
+											</ul>
+										</li> 
+										
+												
+										
+
 									</ul>
 								</div>
 								<div class="header-action d-none d-md-block">
@@ -155,6 +166,9 @@
 										<li class="header-btn"><a href="adoption.jsp" class="btn">Adopt
 												Here <img src="./img/icon/w_pawprint.png" alt="">
 										</a></li>
+										
+											
+										
 									</ul>
 								</div>
 							</nav>

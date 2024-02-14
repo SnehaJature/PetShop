@@ -9,7 +9,7 @@
  --%>
 <style>
 body {
-	background-image: url('../img/jerry.jpeg');
+	background-image: url('../assets/img/jerry.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;

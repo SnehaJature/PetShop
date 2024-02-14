@@ -41,6 +41,8 @@
 
 
 						</ul></li>
+						
+						
 					<li class="submenu"><a href="#"><i
 							class="fas fa-book-reader"></i> <span>Shop Section</span> <span
 							class="menu-arrow"></span></a>
@@ -48,6 +50,18 @@
 							<li><a href="add_Division.jsp">Division Add</a></li>
 							<li><a href="divisionList.jsp">Division Update</a></li>
 						</ul></li>
+
+						
+						
+						<li class="submenu"><a href="#"><i
+							class="fas fa-book-reader"></i> <span>User Details</span> <span
+							class="menu-arrow"></span></a>
+						<ul>
+							<li><a href="user_Details.jsp">User List</a></li>
+						</ul></li>
+						
+						
+						
 					<!-- <li class="submenu"><a href="#"><i class="fas fa-male"></i>
 							<span> Staff</span> <span class="menu-arrow"></span></a>
 						<ul>

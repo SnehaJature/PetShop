@@ -19,6 +19,7 @@
   PreparedStatement ps;
 
 %>
+
 	<div class="main-wrapper">
 		<jsp:include page="./components/header.jsp"></jsp:include>
 		<jsp:include page="./components/sidebar.jsp"></jsp:include>
@@ -30,7 +31,9 @@
 					<div class="col-sm-12">
 						<div class="card">
 							<div class="card-body">
+
 								<form id="addcategorydb" >
+
 									<div class="row">
 										<div class="col-12">
 											<h5 class="form-title">
@@ -41,12 +44,11 @@
 											<div class="form-group ">
 												<label for="validationCustom01">Category Name
 
+
 													</label> <input type="text" name="categoryname" id="categoryname"
 													class="form-control" id="validationCustom01" required>
-
-													</label> <input type="text" name="categoryname"
-													class="form-control" id="categoryname" required>
-
+                                                   
+                                                   
 												<div class="valid-feedback">Looks good!</div>
 												<div class="invalid-feedback">Please Provide Name</div>
 											</div>
@@ -59,7 +61,7 @@
 											<button type="reset" class="btn btn-danger">Reset</button>
 
 										</div>
-										
+
 											</div>
 										</div>
 										
@@ -87,6 +89,7 @@
 											<th>Actions</th>
 										</tr>
 									</thead>
+
 									<tbody>
 									
 									<% ps = con.prepareStatement("select * from category");
@@ -103,6 +106,7 @@
 									</tbody>
 									</table>
 									</div>
+
 						</div>
 					</div>
 				</div>
@@ -117,6 +121,7 @@
 	</div>
 
 	<script type="text/javascript">
+
 	$(document).ready(function() {
         $("#addcategorydb").submit(function(event) {
             event.preventDefault();
@@ -152,6 +157,8 @@
             $("#addcategorydb.jsp").addClass('was-validated');
         });
     })
+
+
 	</script>
 
 </body>
