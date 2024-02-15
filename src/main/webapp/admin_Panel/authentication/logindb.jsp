@@ -14,16 +14,23 @@
 
 	<%
 	String username = request.getParameter("user");
-	String pass = request.getParameter("pass");
-    out.println()
-	Connection con = ConnectionProvider.con();
+	String pass = request.getParameter("password");
+    out.println(pass);
+	
+    Connection con = ConnectionProvider.con();
 	PreparedStatement ps = con.prepareStatement("select * from admin_login where email=? and password=?");
+	
 	ps.setString(1, username);
 	ps.setString(2, pass);
     
 	ResultSet rs = ps.executeQuery();
 
 	if (rs.next()) {
+		
+		session.setAttribute("email",username);
+		session.setAttribute("password",pass);
+		
+		
 	%>
 	<script type="text/javascript">
 		alert("User Login Successfulley");

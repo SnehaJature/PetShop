@@ -13,7 +13,7 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-}
+} 
 
 * {
 	margin: 0;
@@ -157,8 +157,8 @@ input:hover{
          <h1 id="title">Login</h1>
         </header>
          <form action="logindb.jsp" method="post">
-         <input type="email" placeholder="Email" id="email" name="name" required="required">
-         <input type="password" placeholder="Password" id="password" name="pass" required="required">
+         <input type="email" placeholder="Email" id="email" name="email" required="required">
+         <input type="password" placeholder="Password" id="password" name="password" required="required">
          <input type="submit" value="Login" id="signinBtn" class="col-lg-6" data-aos="fade-right" data-aos-delay="100" onsubmit="document.write('hello');">
           <p id="signupBtn">Don't Have Account? <a href="signup.jsp" id="signupLink">Sign Up</a></p>
           <p id="loginBack">Already have an account. <a href="" id="loginLink">Login</a></p> 

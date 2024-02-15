@@ -125,7 +125,7 @@
                     data: $("#addcategorydb").serialize(),
                     success: function(response) {
                         console.log(response.trim())
-                        if (response.trim() == "1") {
+                        	if (response.trim() == "1") {
                             $("#addcategorydb")[0].reset()
                             Swal.fire({
                                 icon: 'success',
