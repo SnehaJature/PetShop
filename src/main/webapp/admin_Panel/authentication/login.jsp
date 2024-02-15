@@ -164,9 +164,13 @@ input:hover{
           <p id="loginBack">Already have an account. <a href="" id="loginLink">Login</a></p> 
          </form>
 
+
     </div>
   </div>
 
+
+  </div>
+</div>
   
 </body>
 </html>

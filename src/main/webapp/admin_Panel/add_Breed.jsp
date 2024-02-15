@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
+
     pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,7 +14,7 @@
 	<div class="main-wrapper">
 		<jsp:include page="./components/header.jsp"></jsp:include>
 		<jsp:include page="./components/sidebar.jsp"></jsp:include>
-		
+
 		<div class="page-wrapper">
 
 			<div class="content container-fluid">
@@ -33,6 +35,18 @@
 												<label for="validationCustom01">Breed Name
 													</label> <input type="text" name="academicYear"
 													class="form-control" id="validationCustom01" required>
+
+
+										<div class="col-12 col-sm-6">
+											<div class="form-group ">
+												<label for="validationCustom02">Category Name </label> <select
+													name="category" id="category" class="form-control">
+													<option value="">--- Select Category Name ---</option>
+													<option value="">Sneha</option>
+												</select>
+											</div>
+										</div>
+
 												<div class="valid-feedback">Looks good!</div>
 												<div class="invalid-feedback">Please Provide Name</div>
 											</div>
@@ -48,6 +62,15 @@
 											</div>
 										</div>
 										
+												<div class="col-12 text-end">
+
+													<br><button type="submit" class="btn btn-dark" >Save</button>
+													<button type="reset" class="btn btn-danger" style="margin-right: -85px;margin-left: 10px">Reset</button>
+
+												</div>
+											</div>
+										</div>
+
 									</div>
 								</form>
 							</div>
@@ -110,7 +133,9 @@
 										%>
 
 									</tbody>
+<<<<<<< HEAD
 						 --%>		</table>
+	
 							</div>
 						</div>
 					</div>
@@ -172,5 +197,9 @@
 		
 	</div>
 	
+
+
+	</div>
+
 </body>
 </html>
