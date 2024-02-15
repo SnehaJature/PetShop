@@ -14,6 +14,13 @@
 
 
 <body>
+    <%
+	if(session.getAttribute("username")==null)
+	{
+		response.sendRedirect("login.jsp");
+	}
+%>
+    
 
 	<!--         Preloader     -->
 	<div id="preloader">

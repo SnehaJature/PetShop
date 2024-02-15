@@ -1,5 +1,6 @@
 <%@page import="java.sql.PreparedStatement"%>
 <%@page import="com.petshop.ConnectionProvider"%>
+
 <%@page import="java.sql.Statement"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Connection"%>
@@ -31,7 +32,10 @@
 					<div class="col-sm-12">
 						<div class="card">
 							<div class="card-body">
+<<<<<<< HEAD
 
+=======
+>>>>>>> admin_Panel
 								<form id="addcategorydb" >
 
 									<div class="row">
@@ -43,12 +47,19 @@
 										<div class="col-12 col-sm-6">
 											<div class="form-group ">
 												<label for="validationCustom01">Category Name
+<<<<<<< HEAD
 
 
 													</label> <input type="text" name="categoryname" id="categoryname"
 													class="form-control" id="validationCustom01" required>
                                                    
                                                    
+=======
+													</label> <input type="text" name="categoryname"
+													class="form-control" id="categoryname" required>
+													</label> <input type="text" name="academicYear"
+													class="form-control" id="validationCustom01" required>
+>>>>>>> admin_Panel
 												<div class="valid-feedback">Looks good!</div>
 												<div class="invalid-feedback">Please Provide Name</div>
 											</div>
@@ -107,6 +118,45 @@
 									</table>
 									</div>
 
+									<%-- <tbody>
+										<%
+										try {
+											int cnt = 1;
+											Connection con = ConnectionProvider.getConnection();
+											Statement stmt = con.createStatement();
+											ResultSet rs = stmt.executeQuery("select * from academicyear");
+											while (rs.next()) {
+										%>
+
+										<tr class="text-center">
+											<td><%=cnt%></td>
+											<td><%=rs.getString("academicYear")%></td>
+											<td><%=rs.getString("nextAcademicYearDate")%></td>
+											<td class="">
+												<div class="actions ">
+													<a
+														href="update_Academic_Year.jsp?id=<%=rs.getInt("academicYearId")%>"
+														class="btn btn-sm bg-danger-light"> <i
+														class="feather-edit" data-bs-toggle="tooltip"
+														data-bs-placement="top" title="Update"></i>
+													</a>
+												</div>
+											</td>
+										</tr>
+
+
+										<%
+										cnt++;
+										}
+
+										} catch (Exception e) {
+										e.printStackTrace();
+										}
+										%>
+
+									</tbody>
+						 --%>		</table>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -135,7 +185,7 @@
                     data: $("#addcategorydb").serialize(),
                     success: function(response) {
                         console.log(response.trim())
-                        if (response.trim() == "1") {
+                        	if (response.trim() == "1") {
                             $("#addcategorydb")[0].reset()
                             Swal.fire({
                                 icon: 'success',

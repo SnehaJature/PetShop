@@ -1,4 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+
+    pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,6 +32,11 @@
 											</h5>
 										</div>
 
+										<div class="col-12 col-sm-6">
+											<div class="form-group ">
+												<label for="validationCustom01">Breed Name
+													</label> <input type="text" name="academicYear"
+													class="form-control" id="validationCustom01" required>
 
 
 										<div class="col-12 col-sm-6">
@@ -40,12 +49,6 @@
 											</div>
 										</div>
 
-										<div class="col-12 col-sm-6">
-											<div class="form-group ">
-												<label for="validationCustom01">Breed Name </label> <input
-													type="text" name="academicYear" class="form-control"
-													id="validationCustom01" placeholder="Enter Breed Name"
-													required>
 												<div class="valid-feedback">Looks good!</div>
 												<div class="invalid-feedback">Please Provide Name</div>
 											</div>
@@ -185,15 +188,9 @@
 			})
 		
 	</script>
-
-
 		
 		
 	</div>
-	
-
-
-
 	
 </body>
 </html>
